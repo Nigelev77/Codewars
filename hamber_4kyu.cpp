@@ -23,10 +23,13 @@ ui64 do_hamber(int n)
     return hammings[n-1];
 }
 
+#include <string>
+
+
 int main(int argc, char const *argv[])
 {
     ui64 res = do_hamber(4);
-
+    std::string str{"Hello"};
     int n =0;
     return 0;
 }
